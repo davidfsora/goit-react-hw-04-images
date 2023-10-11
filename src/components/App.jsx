@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import useModal from "../hooks/useModal";
 import useFetchImages from "../hooks/useFetchImages";
 import Searchbar from "./Searchbar/Searchbar";
