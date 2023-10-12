@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "Styles.module.css";
 
 const ImageGalleryItem = ({ picture, key, handleshowModal, setCurrentPic }) => {
-	console.log(key)
 	const handleModalOpen = (picture) => {
 		setCurrentPic(picture);
 		handleshowModal();
